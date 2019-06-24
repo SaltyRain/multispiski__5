@@ -8,6 +8,7 @@
 
 #include <iostream>
 
+#include "dataTypes.h"
 #include "miltiList.hpp"
 
 using namespace std;
