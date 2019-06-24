@@ -45,7 +45,7 @@ struct student: choice
 
 struct course: choice
 {
-    unsigned int course_id;
+    int course_id;
     course *ptr; //указывает на такой же либо на студента
     course() {
         course_id = -1;
