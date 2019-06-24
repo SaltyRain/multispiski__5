@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E698A0B222C100D000142CD3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E698A0B122C100D000142CD3 /* main.cpp */; };
+		E698A0BA22C1018500142CD3 /* miltiList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E698A0B822C1018500142CD3 /* miltiList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E698A0AE22C100D000142CD3 /* multispiski__5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = multispiski__5; sourceTree = BUILT_PRODUCTS_DIR; };
 		E698A0B122C100D000142CD3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E698A0B822C1018500142CD3 /* miltiList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = miltiList.cpp; sourceTree = "<group>"; };
+		E698A0B922C1018500142CD3 /* miltiList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = miltiList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E698A0B122C100D000142CD3 /* main.cpp */,
+				E698A0B822C1018500142CD3 /* miltiList.cpp */,
+				E698A0B922C1018500142CD3 /* miltiList.hpp */,
 			);
 			path = multispiski__5;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E698A0B222C100D000142CD3 /* main.cpp in Sources */,
+				E698A0BA22C1018500142CD3 /* miltiList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
